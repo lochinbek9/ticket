@@ -24,6 +24,33 @@ body{
     padding: 0 20px;
 }
 
+.site__btn{
+    margin-top: 58px;
+    width: 206px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #e4009c;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Rubik";
+    text-align: center;
+    
+    outline: none;
+    border: 5px solid transparent;
+}
+
+.site__btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #e4009b;
+    border: 5px solid #e4009b;
+    transition: 1s;
+    
+}
+
 .header{
     padding-left: 40px;
     padding: 40px 0;
@@ -36,6 +63,13 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.why-join1{
+    font-size: 18px;
+    line-height: 51px;
+    color: #e4009c;
+    font-weight: 500;
+    font-family: "Rubik";
+}
 .header__list{
     display: flex;
 }
@@ -45,7 +79,7 @@ body{
 }
 
 .header__item a{
-
+    
     line-height: 55px;
     color: #ffffff;
     font-weight: 500;
@@ -67,6 +101,7 @@ body{
     color: #e4009b;
     transition: 0.2s;
 }
+
 
 .hero{
     background-image: linear-gradient(-80deg, #e4009b 0%, #002b9a 100%);
@@ -138,9 +173,29 @@ body{
     text-align: center;
 }
 
+#joinevent{
+    background-image: url("/img/event__background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 815px 891px;
+    
+}
+
+.joinevent__container{
+    padding: 117px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 .joinevent__list{
     display: flex;
     justify-content: flex-start;
+}
+
+.joinevent__list li{
+    margin-top: 10px;
 }
 
 .joinevent__list li + li{
@@ -179,38 +234,6 @@ body{
     color: #808791;
     font-weight: 400;
     font-family: "Rubik";
-}
-
-.site__btn{
-    margin-top: 58px;
-    width: 206px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: #e4009c;
-    font-size: 18px;
-    line-height: 30px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: "Rubik";
-    text-align: center;
-    border: none;
-}
-
-#joinevent{
-    background-image: url("/img/event__background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 815px 891px;
-    
-}
-
-.joinevent__container{
-    padding: 117px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
 }
 
 
@@ -258,12 +281,12 @@ body{
 }
 
 .joinevent__description2{
-   opacity: 0.200;
-   font-size: 26px;
-   line-height: 51px;
-   color: #6366ff;
-   font-weight: 700;
-   font-family: "Rubik";
+    opacity: 0.200;
+    font-size: 26px;
+    line-height: 51px;
+    color: #6366ff;
+    font-weight: 700;
+    font-family: "Rubik";
 }
 
 .joinevent__description3{
@@ -272,4 +295,70 @@ body{
     color: #ff8c11;
     font-weight: 700;
     font-family: "Rubik";
+}
+
+.abountevent__backtop--img{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+
+.abountevent__backbottom--img{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.aboutevent__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutevent__left--box{
+    padding: 40px;
+    width: 328px;
+    height: 364px;
+    border-radius: 5px;
+    background-color: #e4009c;
+}
+
+.aboutevent__left--nextbox{  
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 503px;
+    height: 517px;
+    background-color: #c573ff;
+    border: 8px solid #fff;
+    border-radius: 5px;
+}
+
+.abountevent__list{
+    margin-left: 100px;
+    position: relative;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.abountevent__list li{
+    
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.aboutevent__left--circle{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    width: 231px;
+    height: 231px;
+    background-color: #c573ff;
+    border-radius: 50%;
+    border: 8px solid #fff;
 }
